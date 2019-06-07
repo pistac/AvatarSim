@@ -14,7 +14,7 @@ The executable is large (1.3GB) and can be downloaded by clicking on the followi
 
 Python scripts are included in the repository that illustrate how to control the avatar's facial pose and expressions in order to generate face images for testing face detection algorithms. Parameters that can be controlled programmaticly are: skin tone, age, head pose, head position, facial actions based on the Facial Action Coding System (FACS). 
 
-In your python script import airsim and initialize a VehicleClient that will be the avatar:
+In your python script import airsim and initialize a VehicleClient that will be the avatar (note that the executable needs to be open in order to initialize the client):
 ```python
 import airsim
 
