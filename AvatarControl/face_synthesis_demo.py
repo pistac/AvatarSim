@@ -2,6 +2,8 @@
 # In settings.json first activate computer vision mode: 
 # https://github.com/Microsoft/AirSim/blob/master/docs/image_apis.md#computer-vision-mode
 
+# Note on the imported modules: even though setup_path.py is contained in AirSim, for me (Windows 10) it only worked to copy it in the current working directory.
+
 import setup_path 
 import airsim
 import pprint
